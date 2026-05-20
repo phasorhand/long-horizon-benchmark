@@ -1,0 +1,21 @@
+DATA LICENSE
+============
+
+The code in this repository is licensed under Apache 2.0 (see LICENSE).
+
+The benchmark data (everything under data/) is licensed under
+Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0).
+
+Source Attribution
+------------------
+
+| Source | License | Usage |
+|--------|---------|-------|
+| BAAI/IndustryCorpus2 | Apache 2.0 | Filtered and rewritten, no original text |
+| ShengbinYue/DISC-Law-SFT | Apache 2.0 | Event patterns extracted, content rewritten |
+| twang2218/chinese-law-and-regulations | MIT | Regulations are public domain, cited directly |
+| china-ai-law-challenge/cail2018 | CC-BY-4.0 | Structure referenced, attributed |
+| fjcanyue/wikipedia-zh-cn | CC-BY-SA-3.0 | Rewritten for background material |
+
+All scenario content is synthetic material derived from the above sources.
+No restricted original data is redistributed.
