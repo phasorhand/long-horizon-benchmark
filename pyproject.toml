@@ -22,6 +22,19 @@ dev = [
 openai = [
     "openai>=1.0",
 ]
+pipeline = [
+    "modelscope>=1.0",
+    "datasets>=2.0",
+    "scikit-learn>=1.0",
+    "simhash-pysimhash>=0.1",
+    "jieba>=0.42",
+    "pyyaml>=6.0",
+    "anthropic>=0.30",
+    "openai>=1.0",
+]
+
+[project.scripts]
+lhb-pipeline = "longhorizon_bench.pipeline.cli:cli"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
